@@ -10,7 +10,7 @@
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  font-family: "Hanken Grotesk", sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
   margin-bottom: 30px;
 }
 
@@ -136,6 +136,37 @@
 
 .btn:hover {
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+@media screen and (min-width: 1000px) {
+    
+    .container {
+        align-items: center;
+    }
+
+    .content {
+        max-width: 700px;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .content_header {
+        width: 45%;
+        height: 100%;
+        border-radius: 30px;
+    }
+
+    .content_body {
+        width: 55%;
+    }
+
+    .container h4 {
+        margin-top: 0px;
+    }
+
+    .btn {
+        margin-bottom: 0px;
+    }
 }
 
 .attribution {
